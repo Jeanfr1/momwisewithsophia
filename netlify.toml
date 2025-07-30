@@ -9,13 +9,29 @@
   command = "npm run dev"
   port = 3000
 
-# Redirects for Next.js app router
+# Static asset redirects - Don't redirect static files
+[[redirects]]
+  from = "/Productimages/*"
+  to = "/Productimages/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/ebooksimages/*"
+  to = "/ebooksimages/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/images/*"
+  to = "/images/:splat"
+  status = 200
+
+# Next.js app redirects
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
 
-# Security headers
+# Security headers with Next.js-compatible CSP
 [[headers]]
   for = "/*"
   [headers.values]
@@ -23,6 +39,7 @@
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; connect-src 'self' https:;"
 
 # Cache static assets
 [[headers]]
