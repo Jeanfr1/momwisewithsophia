@@ -20,8 +20,7 @@ export const amazonFinds: AmazonProduct[] = [
       "AI-powered monitoring that tracks breathing & sleep patterns. WiFi secure, 1080p HD video. Peace of mind redefined.",
     price: "$399.99",
     link: "https://amzn.to/3TuFKrC",
-    image:
-      "/Productimages/Nanit Pro Smart Baby Monitor & Wall Mount – 1080p Secure Wi-Fi Video Camera, Sensor-Free Sleep & Breathing Motion Tracker.png",
+    image: "/Productimages/nanit-pro-baby-monitor.png",
     category: "best-sellers",
     badges: ["#1 Best Seller", "Premium Choice"],
   },
@@ -45,8 +44,7 @@ export const amazonFinds: AmazonProduct[] = [
       "8 smart functions in one! Precise temperature control, sterilizing, defrosting. Makes 3AM feeds effortless.",
     price: "$45.99",
     link: "https://amzn.to/40xYr1k",
-    image:
-      "/Productimages/Bottle Warmer, GROWNSY 8-in-1 Fast Baby Milk Warmer with Timer for Breastmilk or Formula, Accurate Temperature Control, with Defrost, Sterili-zing, Keep, Heat Baby Food Jars Function .png",
+    image: "/Productimages/grownsy-bottle-warmer.png",
     category: "best-sellers",
     badges: ["Fast Heating", "Multi-Function"],
   },
@@ -58,8 +56,7 @@ export const amazonFinds: AmazonProduct[] = [
       "Grows with baby from 4 months+. Montessori-inspired learning that builds motor skills & cognitive development.",
     price: "$149.99",
     link: "https://amzn.to/45lrl7D",
-    image:
-      "/Productimages/Skip Hop Discoverosity Montessori-Inspired 3-Stage Activity Center & Play Table for Baby Ages 4m+.png",
+    image: "/Productimages/skip-hop-activity-center.png",
     category: "best-sellers",
     badges: ["Montessori", "3-Stage Growth"],
   },
@@ -73,8 +70,7 @@ export const amazonFinds: AmazonProduct[] = [
       "From the makers of NoseFrida! Safely clean boogers, trim nails, remove ear wax. Every new mom needs this.",
     price: "$12.99",
     link: "https://amzn.to/3TUKE17",
-    image:
-      "/Productimages/Frida Baby 3-in-1 Nose, Nail + Ear Picker by Frida Baby the Makers of NoseFrida the SnotSucker, Safely Clean Baby's Boogers, Ear Wax & More .png",
+    image: "/Productimages/frida-baby-3in1-picker.png",
     category: "heart-picks",
     badges: ["Must-Have", "Pediatrician Recommended"],
   },
@@ -86,8 +82,7 @@ export const amazonFinds: AmazonProduct[] = [
       "BPA-free silicone wonder! Teething relief + self-feeding in one. Includes mini freezer tray for breastmilk popsicles.",
     price: "$16.99",
     link: "https://amzn.to/3UuPjaf",
-    image:
-      "/Productimages/Haakaa Clover Baby Fruit Feeder Teether & Mini Freezer Nibble Tray – BPA-Free Silicone Breastmilk Popsicle Mold for Baby Teething Relief & Self-Feeding, 4M+ (Steel Blue).png",
+    image: "/Productimages/haakaa-fruit-feeder.png",
     category: "heart-picks",
     badges: ["Natural Relief", "Self-Feeding"],
   },
@@ -112,8 +107,7 @@ export const amazonFinds: AmazonProduct[] = [
       "Instant accurate readings without waking baby. Fever alarm + silent mode. FSA/HSA eligible for savings.",
     price: "$29.99",
     link: "https://amzn.to/4l77oHa",
-    image:
-      "/Productimages/No-Touch Thermometer for Adults and Kids, Accurate Digital Baby Thermometer, FSA HSA Eligible, Fever Alarm & Silent Mode, 2 in 1 Forehead & Object Mode .png",
+    image: "/Productimages/no-touch-thermometer.png",
     category: "heart-picks",
     badges: ["No-Wake", "FSA Eligible"],
   },
@@ -153,8 +147,7 @@ export const amazonFinds: AmazonProduct[] = [
       "Charcoal chic meets functionality. Perfectly sized for little hands. Instagram-worthy and baby-approved.",
     price: "$18.99",
     link: "https://amzn.to/3ILFJNS",
-    image:
-      "/Productimages/Ryan & Rose Cutie Tensils Baby Spoon and Fork [2 Pack] (Charcoal).png",
+    image: "/Productimages/ryan-rose-baby-spoons.png",
     category: "feeding",
     badges: ["Stylish", "Perfect Size"],
   },
@@ -178,8 +171,7 @@ export const amazonFinds: AmazonProduct[] = [
       "Indoor/outdoor use with feeding tray. Perfect for travel, visits, or small spaces. Floor seat that grows with baby 6 months to 3 years.",
     price: "$39.99",
     link: "https://amzn.to/4ffsDVl",
-    image:
-      "/Productimages/Bright Starts Pop 'N Sit Portable Booster, Indoor:Outdoor Use, Floor Seat with Feeding Tray.png",
+    image: "/Productimages/bright-starts-portable-booster.png",
     category: "feeding",
     badges: ["Portable", "6M-3Y"],
   },
@@ -191,8 +183,7 @@ export const amazonFinds: AmazonProduct[] = [
       "Dual heating modes for breast milk & water. Fast heating with long battery life. 17 ounces large capacity for all-day needs.",
     price: "$49.99",
     link: "https://amzn.to/4mlC2wW",
-    image:
-      "/Productimages/Momcozy Portable Milk Warmer for Travel – Dual Heating Modes for Breast Milk & Water, Portable Bottle Warmer with Fast Heating & Long Battery Life.png",
+    image: "/Productimages/momcozy-portable-milk-warmer.png",
     category: "feeding",
     badges: ["Travel Ready", "Dual Modes"],
   },
@@ -242,8 +233,7 @@ export const amazonFinds: AmazonProduct[] = [
       "Dual heating modes with extra-large 17oz capacity. Perfect for longer outings and busy days. Fast heating technology meets convenience.",
     price: "$54.99",
     link: "https://amzn.to/4ofWXTS",
-    image:
-      "/Productimages/Momcozy Portable Milk Warmer for Travel – Dual Heating Modes for Breast Milk & Water, Portable Bottle Warmer with Fast Heating & Long Battery Life.png",
+    image: "/Productimages/momcozy-portable-milk-warmer.png",
     category: "feeding",
     badges: ["Large Capacity", "Extended Battery"],
   },
@@ -257,8 +247,7 @@ export const amazonFinds: AmazonProduct[] = [
       "Newborn to 36 months. Soft cushion + thermometer included. Folds flat for storage. Travel-friendly design.",
     price: "$45.99",
     link: "https://amzn.to/4ewNqTI",
-    image:
-      "/Productimages/Collapsible Baby Bathtub,Baby Bath Tub with Soft Cushion & Thermometer,Baby Bathtub Newborn to Toddler 0-36 Months,Portable Travel Baby Tub .png",
+    image: "/Productimages/collapsible-baby-bathtub.png",
     category: "bath-time",
     badges: ["Space-Saving", "0-36 Months"],
   },
@@ -388,8 +377,7 @@ export const amazonFinds: AmazonProduct[] = [
       "40+ activities, light-up music toys. Converts as baby grows. 6 months to confident walking - one amazing toy.",
     price: "$129.99",
     link: "https://amzn.to/3IGAU8B",
-    image:
-      "/Productimages/Skip Hop Baby Walker 4-in-1 Sit to Stand Convertible Light Up Music Toy with 40+ Activities Explore & More Age 6m+.png",
+    image: "/Productimages/skip-hop-baby-walker.png",
     category: "on-the-go",
     badges: ["4-in-1", "40+ Activities"],
   },
