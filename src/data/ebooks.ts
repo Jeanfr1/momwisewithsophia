@@ -21,7 +21,7 @@ export const ebooks: EbookResource[] = [
       "Break free from mom guilt and overwhelm! This transformative guide helps you reclaim your energy, prioritize your mental health, and rediscover the amazing mother you've always been. Your healing journey starts here.",
     price: "Available on Kindle",
     link: "https://www.amazon.com/dp/B0FJ6NX6XB",
-    image: "/ebooksimages/Guilt-Free Postpartum.jpg",
+    image: "/ebooksimages/guilt-free-postpartum.jpg",
     category: "self-care",
     badges: ["Life-Changing", "Mental Health Focus"],
   },
@@ -33,7 +33,7 @@ export const ebooks: EbookResource[] = [
       "Transform your parenting journey with mindfulness and intention. Learn to stay calm in chaos, connect deeply with your children, and find joy in everyday moments. Parenting with purpose has never felt so achievable.",
     price: "Available on Kindle",
     link: "https://www.amazon.com/dp/B0FDSD8KX4",
-    image: "/ebooksimages/MindfulMama.jpg",
+    image: "/ebooksimages/mindful-mama.jpg",
     category: "self-care",
     badges: ["Mindfulness", "Emotional Wellness"],
   },
@@ -48,7 +48,7 @@ export const ebooks: EbookResource[] = [
       "End mealtime battles forever! This comprehensive 0-5 year feeding guide covers everything from first foods to picky eating solutions. Evidence-based strategies that actually work for real families.",
     price: "Available on Kindle",
     link: "https://www.amazon.com/dp/B0DXD8573N",
-    image: "/ebooksimages/Cover Recipe Ebook   Document.jpg",
+    image: "/ebooksimages/nourish-flourish-guide.jpg",
     category: "feeding",
     badges: ["0-5 Years", "Evidence-Based"],
   },
@@ -56,13 +56,14 @@ export const ebooks: EbookResource[] = [
   // CHILD DEVELOPMENT WISDOM - Growing confident kids
   {
     id: "development-mastery",
-    title: "Developmental Milestones & Learning Adventures: A Parent's Complete Guide",
+    title:
+      "Developmental Milestones & Learning Adventures: A Parent's Complete Guide",
     marketingName: "The Child Development Confidence Builder",
     description:
       "Unlock your child's full potential with this comprehensive development guide! From language milestones to emotional intelligence, discover age-appropriate activities and expert strategies that nurture confident, capable children.",
     price: "Available on Kindle",
     link: "https://www.amazon.com/dp/B0FK1Y77N4",
-    image: "/ebooksimages/ChatGPT Image Jul 29, 2025, 10_36_15 PM.png",
+    image: "/ebooksimages/child-development-guide.png",
     category: "development",
     badges: ["Milestones", "Expert Strategies"],
   },
