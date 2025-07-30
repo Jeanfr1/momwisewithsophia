@@ -184,6 +184,103 @@ export default function EbooksColoringBooksPage() {
         })}
       </div>
 
+      {/* Coloring Books Coming Soon Section */}
+      <section className="py-20 px-4 bg-gradient-to-br from-yellow-50 via-orange-50 to-red-50 relative overflow-hidden">
+        {/* Decorative background elements */}
+        <div className="absolute top-10 left-10 w-32 h-32 bg-yellow-200 rounded-full opacity-20 animate-pulse"></div>
+        <div className="absolute bottom-20 right-20 w-40 h-40 bg-orange-200 rounded-full opacity-15 animate-bounce slow"></div>
+        <div className="absolute top-1/2 right-1/3 w-24 h-24 bg-red-300 rounded-full opacity-25 animate-ping slow"></div>
+
+        <div className="max-w-6xl mx-auto text-center relative z-10">
+          {/* Category badge */}
+          <div className="inline-flex items-center gap-2 bg-white/30 backdrop-blur-md border border-white/40 text-gray-700 px-6 py-3 rounded-full text-sm font-semibold mb-8">
+            <span>🎨</span>
+            <span>Creative Fun</span>
+            <span>✨</span>
+          </div>
+
+          <h2 className="text-4xl md:text-6xl font-extrabold mb-6">
+            <span className="bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500 bg-clip-text text-transparent">
+              Coloring Books
+            </span>
+          </h2>
+
+          <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto mb-12 font-light">
+            Magical coloring adventures that spark creativity and bring families together.
+            <span className="font-semibold text-orange-500"> Educational themes</span> meet
+            <span className="font-semibold text-red-500"> artistic expression!</span>
+          </p>
+
+          {/* Coming Soon Cards Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            {/* Card 1 - Educational Themes */}
+            <div className="group relative">
+              <div className="absolute inset-0 bg-gradient-to-r from-yellow-200/30 to-orange-200/30 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-300"></div>
+              <div className="relative bg-white/60 backdrop-blur-xl border border-white/50 rounded-3xl p-8 hover:scale-105 transition-all duration-300 shadow-xl">
+                <div className="text-6xl mb-4">🌈</div>
+                <h3 className="text-xl font-bold text-gray-800 mb-3">Educational Adventures</h3>
+                <p className="text-gray-600 text-sm">
+                  Learning meets fun with alphabet, numbers, and science-themed coloring pages
+                </p>
+                <div className="mt-4 px-4 py-2 bg-yellow-100 rounded-full text-yellow-700 text-xs font-medium">
+                  Coming Soon
+                </div>
+              </div>
+            </div>
+
+            {/* Card 2 - Family Bonding */}
+            <div className="group relative">
+              <div className="absolute inset-0 bg-gradient-to-r from-orange-200/30 to-red-200/30 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-300"></div>
+              <div className="relative bg-white/60 backdrop-blur-xl border border-white/50 rounded-3xl p-8 hover:scale-105 transition-all duration-300 shadow-xl">
+                <div className="text-6xl mb-4">👨‍👩‍👧‍👦</div>
+                <h3 className="text-xl font-bold text-gray-800 mb-3">Family Bonding</h3>
+                <p className="text-gray-600 text-sm">
+                  Special moments designed for parents and children to create together
+                </p>
+                <div className="mt-4 px-4 py-2 bg-orange-100 rounded-full text-orange-700 text-xs font-medium">
+                  Coming Soon
+                </div>
+              </div>
+            </div>
+
+            {/* Card 3 - Mindfulness */}
+            <div className="group relative">
+              <div className="absolute inset-0 bg-gradient-to-r from-red-200/30 to-pink-200/30 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-300"></div>
+              <div className="relative bg-white/60 backdrop-blur-xl border border-white/50 rounded-3xl p-8 hover:scale-105 transition-all duration-300 shadow-xl">
+                <div className="text-6xl mb-4">🧘‍♀️</div>
+                <h3 className="text-xl font-bold text-gray-800 mb-3">Mindful Moments</h3>
+                <p className="text-gray-600 text-sm">
+                  Calming designs that promote focus, relaxation, and mindful creativity
+                </p>
+                <div className="mt-4 px-4 py-2 bg-red-100 rounded-full text-red-700 text-xs font-medium">
+                  Coming Soon
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Notification signup */}
+          <div className="bg-white/40 backdrop-blur-md border border-white/50 rounded-2xl p-8 max-w-2xl mx-auto">
+            <h3 className="text-2xl font-bold text-gray-800 mb-4">
+              🎉 Be the First to Know!
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Get notified when our magical coloring books launch. Premium designs, educational themes, and endless family fun await!
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 items-center">
+              <input
+                type="email"
+                placeholder="Enter your email for coloring book updates..."
+                className="flex-1 px-6 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-orange-400 bg-white/70 backdrop-blur-sm"
+              />
+              <button className="px-8 py-3 bg-gradient-to-r from-orange-500 to-red-500 text-white font-bold rounded-xl hover:scale-105 transition-all duration-300 shadow-lg whitespace-nowrap">
+                Notify Me! 🎨
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Bottom CTA Section */}
       <section className="bg-gradient-to-r from-purple-100 to-pink-100 py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">

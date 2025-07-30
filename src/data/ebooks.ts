@@ -52,6 +52,20 @@ export const ebooks: EbookResource[] = [
     category: "feeding",
     badges: ["0-5 Years", "Evidence-Based"],
   },
+
+  // CHILD DEVELOPMENT WISDOM - Growing confident kids
+  {
+    id: "development-mastery",
+    title: "Developmental Milestones & Learning Adventures: A Parent's Complete Guide",
+    marketingName: "The Child Development Confidence Builder",
+    description:
+      "Unlock your child's full potential with this comprehensive development guide! From language milestones to emotional intelligence, discover age-appropriate activities and expert strategies that nurture confident, capable children.",
+    price: "Available on Kindle",
+    link: "https://www.amazon.com/dp/B0FK1Y77N4",
+    image: "/ebooksimages/ChatGPT Image Jul 29, 2025, 10_36_15 PM.png",
+    category: "development",
+    badges: ["Milestones", "Expert Strategies"],
+  },
 ];
 
 export const ebookCategories = [
